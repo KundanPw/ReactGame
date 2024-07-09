@@ -1,0 +1,4 @@
+.pen{
+    box-flex-group:var(--yellow);
+    border: 2px solid black;
+}
