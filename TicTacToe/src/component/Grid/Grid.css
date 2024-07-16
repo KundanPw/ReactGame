@@ -1,3 +1,7 @@
+.gridWrapper{
+    max-width: 500px;
+}
+
 .grid{
     width: 500px;
     height: 500px;
@@ -6,6 +10,20 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .turn-heighlight{
     color:white;
+}
+
+.win{
+    color: white;
+}
+
+.reset{
+    padding: 1rem;
+    color: white;
+    background-color: var(--resetGreen);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
 }
